@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to my website</title>
+	<link rel="stylesheet" href="css/main.css" media="screen">
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Noto+Serif|Pacifico|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Noto+Serif|Pacifico|Playfair+Display|Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="Container"> <!-- start header -->
+	
+    
+	<!-- <h1 class="hidden"> My logo </h1> -->
+<header class="mainHeader">
+  <div class="logoHeader">
+    <img src="images/beer_logo2.png" alt="BREWERY LOGO" width="52.6" height="157.3" id="logo">
+  </div>
+  <nav class="mainNav">
+    <!-- <h2 class="hidden">Main Navigation</h2> -->
+      <ul>
+         <li><a href="home.html">HOME</a></li>
+         <li><a href="Beer.html">BEER</a></li>
+         <li><a href="Brewery.html">BREWERY</a></li>
+         <li><a href="community.html"> COMMUNITY</a></li>
+         <li class="selected"><a href="#">CONTACT US</a></li>
+      </ul>
+      <input type="text" placeholder="Search">
+  </nav>
+
+  </header>
+  </div>  <!-- done with the header -->
+
+  <main class="contact">
+    <div class="contactBox">
+      <section class="conPic">
+    <h2 class="cont">
+      For More Information Contact Us....
+    </h2>
+    
+      <div class="img">
+      <img src="images/contact.gif" alt="contact us gif" width="500" height="500">
+      </div>
+
+    </section>
+   
+
+  <section id="contactArea">
+    <h2 class="hidden"> Contact Area</h2>
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name"> First Name*</label>
+                    <input type="text" required id="name" name="Name" size="30" placeholder="Enter your First name">
+
+                    <label for="name"> Last Name*</label>
+                    <input type="text" required id="LastName" name="Name" size="30" placeholder="Enter Last your name">
+                    
+                    <label for="email">Email*</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+
+                    <label for="phone">Phone*</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+
+                    <label for="email">Country*</label>
+                    <input type="email" required id="Country" size="30" placeholder="Enter your Country">
+                    
+                    <label for="comments">Comments*</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8">
+                      
+                    </textarea>                                       
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+          </section><!--end contact-->  
+     </div><!-- Close box -->   
+</main> 
+
+
+ <footer class="footer">
+<div class="footerInfo">
+ <h2>
+    BEER <br><br>
+    CAREERS<br><br>
+    SPACES<br><br>
+    BLOG<br><br>
+    LEADERSHIP TEAM<br><br>
+  
+  </h2>
+
+  <h3>
+    Find Our Beer<br><br>
+    Community<br><br>
+    Resturant<br><br>
+    Modglide story<br><br>
+    Beer Archive<br><br>
+  </h3>
+
+  <h4>
+    40076 Blyth Road, Blyth, On N0H1H4 <br><br>
+    Phone No. : +1224 633 2290  <br><br>
+    Reservation: modglide@gmail.com <br><br>
+    Sponsorship Inquiries: BLYTHmodgl@yahoo.com <br><br>
+    General Inquiries: modg223456@yahoo.com <br><br>
+
+  </h4>
+
+</div>
+</footer>
+
+</body>
+</html>
